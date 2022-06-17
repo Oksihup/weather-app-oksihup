@@ -1,0 +1,77 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.search-form {
+  display: block;
+  margin-bottom: 10px;
+  padding: 20px;
+  display: block;
+  border-radius: 18px;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 28px;
+  box-shadow: 5px 5px 10px rgba(3, 92, 92, 0.5);
+  transition: all 400ms ease-in-out;
+  border-color: #1cb2a4;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+li {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+h1,
+h2 {
+  color: #1cb2a4;
+}
+.temperature {
+  color: #1cb2a4;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -34px;
+  color: #1cb2a4;
+}
+.container-week {
+  border-radius: 18px;
+  padding: 25px;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #1cb2a4;
+  box-shadow: 5px 5px 10px rgba(3, 92, 92, 0.5);
+}
+
+.row {
+  color: #1cb2a4;
+  display: flex;
+  align-content: normal;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.fa-sun {
+  color: yellow;
+}
+.fa-cloud {
+  color: grey;
+}
+.fa-cloud-bolt {
+  color: black;
+}
