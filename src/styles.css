@@ -49,22 +49,21 @@ h2 {
   top: -34px;
   color: #1cb2a4;
 }
-.container-week {
-  border-radius: 18px;
-  padding: 25px;
-  margin-top: 20px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #1cb2a4;
-  box-shadow: 5px 5px 10px rgba(3, 92, 92, 0.5);
+.card {
+  padding: 20px;
+  border: none;
+  float: left;
 }
-
-.row {
+.card-day {
+  text-align: center;
   color: #1cb2a4;
-  display: flex;
-  align-content: normal;
-  justify-content: space-around;
-  align-items: stretch;
+}
+.card-temp {
+  text-align: center;
+  color: #1cb2a4;
+}
+.card-picture {
+  text-align: center;
 }
 .fa-sun {
   color: yellow;
@@ -74,4 +73,7 @@ h2 {
 }
 .fa-cloud-bolt {
   color: black;
+}
+.github {
+  text-align: center;
 }
